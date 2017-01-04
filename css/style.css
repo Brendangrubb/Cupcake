@@ -3,6 +3,10 @@
   font-family: fantasy;
 }
 
+img {
+  padding: 2px;
+  border: 2px solid orange;
+}
 .vegan {
   border-style: solid;
   border-color: green;
@@ -17,9 +21,13 @@
 .column {
   width: 33%;
   float: left;
+  background-color: gray;
 }
 body {
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3px;
+  margin-bottom: 2px;
   width: 75%;
   align-content: center;
   background-color: pink;
