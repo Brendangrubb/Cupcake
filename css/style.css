@@ -14,12 +14,30 @@
   font-family: monospace;
 }
 
+.column {
+  width: 33%;
+  float: left;
+}
 body {
   margin: auto;
   width: 75%;
   align-content: center;
   background-color: pink;
 }
+
 h1, h2 {
   text-align: center;
+}
+.sidebar {
+  float: right;
+  background-color: black;
+  color: white;
+  width: 50%;
+    }
+a:visited {
+  color: white;
+}
+
+img {
+  float: left;
 }
