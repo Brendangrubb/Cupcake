@@ -1,16 +1,39 @@
+/*****Tag Styles*****/
+body {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3px;
+  margin-bottom: 2px;
+  width: 75%;
+  align-content: center;
+  background-color: pink;
+}
+
+}
+h1, h2 {
+  text-align: center;
+}
+
+img {
+  width: 20%;
+  margin: auto;
+  border: 2px solid orange;
+}
+
+a:visited {
+  color: white;
+}
+
+/*****Class Styles*****/
 .history {
   font-style: oblique;
   font-family: fantasy;
 }
 
-img {
-  padding: 2px;
-  border: 2px solid orange;
-}
 .vegan {
-  border-style: solid;
+  border-style: dashed;
   border-color: green;
-  border-width: 3px;
+  border-width: 2px;
 }
 
 .location {
@@ -23,29 +46,17 @@ img {
   float: left;
   background-color: gray;
 }
-body {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 3px;
-  margin-bottom: 2px;
-  width: 75%;
-  align-content: center;
-  background-color: pink;
-}
-
-h1, h2 {
-  text-align: center;
-}
 .sidebar {
   float: right;
   background-color: black;
   color: white;
   width: 50%;
     }
-a:visited {
-  color: white;
-}
 
-img {
-  float: left;
+.box-practice {
+  font-size: 20px;
+  margin: 40px;
+  border: 2px solid grey;
+  padding:5px;
+  background-color: yellow;
 }
