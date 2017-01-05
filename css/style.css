@@ -9,14 +9,14 @@ body {
   background-color: pink;
 }
 
-}
 h1, h2 {
   text-align: center;
 }
 
 img {
   width: 20%;
-  margin: auto;
+  margin: 2%;
+  align-content: center;
   border: 2px solid orange;
 }
 
@@ -26,6 +26,8 @@ a:visited {
 
 /*****Class Styles*****/
 .history {
+  float: left;
+  width: 50%;
   font-style: oblique;
   font-family: fantasy;
 }
@@ -70,4 +72,11 @@ a:visited {
   border: 2px solid grey;
   padding:5px;
   background-color: yellow;
+}
+@media screen and (max-width: 768px) {
+  .sidebar {
+    clear: both;
+    background-color: white;
+    color: white;
+      }
 }
